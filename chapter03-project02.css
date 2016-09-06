@@ -1,0 +1,123 @@
+/*  NOT A REAL CRM  */
+/*  show nav links in line*/
+li {
+    display: inline;
+}
+
+/*  set colors an padding for 2 menus   */
+#mainMenu {
+    padding: .5% 0% .5% 72%;
+    background-color: #103030
+}
+
+#secondaryMenu{
+    background-color: #E0E0E0;
+    padding: .3% 15%; 
+}
+
+/*  links color*/
+a  {
+    color: #00A0A0;
+}
+
+/*  main page margins*/
+article    {
+    margin: 0% 5%;
+}
+
+/*  locate ! a CRM image*/
+h1 img  {
+    padding: 0% 0% 0% 15%;
+}
+
+/*  format backgounds, font color, margins & padding for h1 & h3    */
+h1, h3  {
+    background: url(images/header-background.png);
+    background-repeat: repeat;
+    color: #FFFFFF;
+    padding: 1.5%;
+    margin: 0%;
+}
+
+/*  format backgounds, font color, margins & padding for h2    */
+h2  {
+    font-family: sans-serif, serif;
+    margin: -2em 0em -.5em 0em;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 44.6%;
+    transform: translate(-0%, -44.6%);
+    
+}
+
+/*  center Jack's image and name    */
+article div img {
+    margin: 4em 0em 0em 0em;
+    background-color: #FFFFFF;
+    position: relative;
+    left: 43%;
+    transform: translate(-0%, -43%);
+    
+}
+
+/*  bourder for Jack's image    */
+div img{
+    margin: 2em;
+    border: solid .1em #808080;
+    padding: .5em;
+}
+
+section {
+    margin: 2% 10%;
+    border: solid .1em #000000;
+}
+
+/*  sections borders    */
+section em  {
+    color: #808080;
+}
+
+/*  mail and telephone logos    */
+a[href^="mailto"]   {
+    background: url(images/email.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+a[href^="tel"]   {
+    background: url(images/call.png) no-repeat 0 3px;
+    padding-left: 1em;
+}
+
+/*  backgrpunds for sections bottoms    */
+.actions    {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: .5em;
+}
+
+/*  logos and "buttons" for edits and flags     */
+.actionEdit    {
+    border-radius: .2em;
+    padding: .2em .3em .2em 1.5em;
+    margin: .1em;
+    background: #C0C0C0 url(images/edit.png) no-repeat .3em .3em;
+}
+.actionFlag    {
+    border-radius: .2em;
+    padding: .2em .3em .2em 1.5em;
+    margin: .1em;
+    background: #C0C0C0 url(images/flag.png) no-repeat .3em .3em;
+}
+
+/*  footer locations, colors and fonts  */
+footer    {
+    margin: 2% 14% 3% 14%;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: .5em;
+}
+
+#copyright{
+    font-style: italic;
+    font-size: 85%;
+}
